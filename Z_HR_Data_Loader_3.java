@@ -192,22 +192,7 @@ public class Z_HR_Data_Loader_3 {
 
         assertTrue(VerifiedValue[5].equals(verifyValueSelect5));
 
-        /**
-         * Выводим в консоль тестовые данные из схемы GPN_OIM
-         */
-
-        System.out.println();
-        System.out.println("Выводим в консоль тестовые данные из схемы GPN_OIM");
-        System.out.println();
-        System.out.println("COMPANY_NAME from GPN_OIM.Z_COMPANIES -------------------| " + verifyValueSelect);
-        System.out.println("DEPARTMENT -- ACT_NAME from GPN_OIM.ACT ----------------| " + verifyValueSelect1);
-        System.out.println("USR_FIRST_NAME from GPN_OIM.USR ------------------| " + verifyValueSelect2);
-        System.out.println("CITY from GPN_OIM.Z_EMPLOYMENTS ------------------| " + verifyValueSelect3);
-        System.out.println("VACATION_END from GPN_OIM.Z_VACATIONS ------------------| " + verifyValueSelect4);
-        System.out.println("TITLE_NAME from GPN_OIM.Z_TITLES ------------------| " + verifyValueSelect5);
-        System.out.println();
-        System.out.println();
-
+        
 
 
     }

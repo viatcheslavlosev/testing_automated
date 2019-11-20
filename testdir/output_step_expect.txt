@@ -1,0 +1,125 @@
+./e2e/website/e2e/framework-site/src/steps/css.ts:16:    await expect(hasClass(target, "active"),
+./e2e/website/e2e/framework-site/src/steps/css.ts:32:    await expect(hasClass(target, "active"),
+./e2e/website/e2e/framework-site/src/steps/common.ts:13:      await expect(target.element(by.tagName("svg")).isPresent()).to.eventually.be.true;
+./e2e/website/e2e/framework-site/src/steps/common.ts:27:    await expect(target.isPresent(), `Element ${target} does not exist.`).to.eventually.be.true;
+./e2e/website/e2e/framework-site/src/steps/common.ts:35:    await expect(target.isDisplayed(), `Element ${target} exists but is not visible.`).to.eventually.be.true;
+./e2e/website/e2e/framework-site/src/steps/common.ts:46:    await expect(contents.every((item) => item.toLowerCase().includes(value.toLowerCase()))).to.be.true;
+./e2e/vidar-core/src/support-code/support-code.ts:221:      expect(
+./e2e/vidar-core/src/support-code/steps/mailsteps.ts:17:    expect(mails.length, `No emails with subject = "${subject}" received.`).to.satisfy((l) => l > 0);
+./e2e/vidar-core/src/support-code/steps/mailsteps.ts:31:    expect(mark, `${emails.length} emails with "${subject}" subject received. \
+./e2e/vidar-core/src/support-code/steps/mailsteps.ts:45:    expect(mark, `${emails.length} emails with "${subject}" subject received. \
+./e2e/vidar-core/src/support-code/steps/mailsteps.ts:57:    expect(mails.length, `Email with subject = "${subject}" was not expected but received.`).to.equal(0);
+./e2e/vidar-core/src/support-code/steps/mailsteps.ts:70:    expect(mark, `${emails.length} emails with "${subject}" subject received. \
+./e2e/vidar-core/src/support-code/steps/numbers.ts:9:    await expect(target.count()).to.eventually.be.greaterThan(int);
+./e2e/vidar-core/src/support-code/steps/numbers.ts:14:    await expect(target.count()).to.eventually.equals(int);
+./e2e/vidar-core/src/support-code/steps/numbers.ts:19:    await expect(Number(number1) + Number(number2)).to.equals(Number(number3));
+./e2e/vidar-core/src/support-code/steps/storage.ts:90:    expect(match, `Text '${text}' does not contain any email. I think.`).not.to.equal(null);
+./e2e/vidar-core/src/support-code/steps/storage.ts:98:    expect(match, `Text '${text}' has nothing to grep. I think.`).not.to.equal(null);
+./e2e/vidar-core/src/support-code/steps/common.ts:60:    await expect(present, `Element ${target} does not exist.`).to.be.true;
+./e2e/vidar-core/src/support-code/steps/common.ts:71:    await expect(present, `Element ${target} exists, but should not.`).to.be.false;
+./e2e/vidar-core/src/support-code/steps/common.ts:86:    await expect(present, `Element ${target} does not exist.`).to.be.true;
+./e2e/vidar-core/src/support-code/steps/common.ts:88:    await expect(target.isDisplayed(), `Element ${target} exists but is not visible.`).to.eventually.be.true;
+./e2e/vidar-core/src/support-code/steps/common.ts:112:      await expect(target.isDisplayed(), `Element ${target} exists and visible.`).to.eventually.be.false;
+./e2e/vidar-core/src/support-code/steps/common.ts:123:    await expect(target.isEnabled(), `Element ${target} is disabled, but should be enabled.`).to.eventually.be.true;
+./e2e/vidar-core/src/support-code/steps/common.ts:133:    await expect(target.isEnabled(), `Element ${target} is enabled, but should be disabled.`).to.eventually.be.false;
+./e2e/vidar-core/src/support-code/steps/common.ts:159:    await expect(target.waitToBeClickable(1000),
+./e2e/vidar-core/src/support-code/steps/common.ts:288:        expect(text)
+./e2e/vidar-core/src/support-code/steps/common.ts:293:        expect(text)
+./e2e/vidar-core/src/support-code/steps/common.ts:310:      expect(text, `Text = ${text} \n should not contain expected string = ${str}`)
+./e2e/vidar-core/src/support-code/steps/common.ts:314:      expect(text, `Text = ${text} \n should not contain expected string = ${str}`)
+./e2e/vidar-core/src/support-code/steps/common.ts:328:    expect(text, `Text = ${text} \n should be equal to expected string = ${str}`)
+./e2e/vidar-core/src/support-code/steps/common.ts:342:    expect(text, `Text = ${text} \n should not be equal to expected string = ${str}`)
+./e2e/vidar-core/src/support-code/steps/common.ts:354:    await expect(target
+./e2e/vidar-core/src/support-code/steps/common.ts:369:    await expect(target.getCssValue(cssProperty), `Css property ${cssProperty} should be ${value}`)
+./e2e/vidar-core/src/support-code/steps/common.ts:382:    expect(await target.getAttribute(attr), `Attribute ${attr} should be ${str}`).to.equal(str);
+./e2e/vidar-core/src/support-code/steps/common.ts:399:      expect(actualValue).to.be.not.lessThan(size);
+./e2e/vidar-core/src/support-code/steps/common.ts:412:    expect(actualSize, `Target size/length = ${actualSize} is not equal than expected ${size}`).to.be.equal(size);
+./e2e/vidar-core/src/support-code/steps/common.ts:425:    expect(actualSize, `Target size/length = ${actualSize} is less than expected ${size}`).to.be.not.lessThan(size);
+./e2e/vidar-core/src/support-code/steps/common.ts:447:    await expect(target
+./e2e/vidar-core/src/support-code/steps/common.ts:458:    await expect(browser.getCurrentUrl()).to.eventually.equal(value);
+./e2e/playground/src/steps/versions.ts:13:    expect(major).to.above(int);
+./e2e/playground/src/steps/versions.ts:18:    await expect(target.count()).to.eventually.equals(int);
+./e2e/framework-portal/steps/common.ts:29:    expect(lastAlert.type).to.equal(type);
+./e2e/serverscom/portal/e2e/src/blocks/MaterialMultiUiSelect2.ts:35:        // await expect(fieldContentDiv.getText()).to.eventually.contain(option);
+./e2e/serverscom/portal/e2e/src/steps/storage.ts:40:        expect(
+./e2e/serverscom/portal/e2e/src/steps/storage.ts:45:        expect(
+./e2e/serverscom/portal/e2e/src/steps/common.ts:78:        expect(lastAlert.type).to.equal(type);
+./e2e/backoffice-ui/e2e/src/blocks/material-multi-ui-select.ts:21:    await expect(fieldContentDiv.getText()).to.eventually.contain(option);
+./e2e/backoffice-ui/e2e/src/blocks/react-select.ts:26:    await expect(fieldContentDiv.getText()).to.eventually.contain(option);
+./e2e/backoffice-ui/e2e/src/blocks/material-ui-select.ts:20:    await expect(fieldContentDiv.getText()).to.eventually.contain(option);
+./e2e/backoffice-ui/e2e/src/steps/common.ts:11:    expect(itemTexts.join(" > ").split('\\').join("")).to.equal(str);
+./e2e/node_modules/protractor/built/element.d.ts:47: *   expect(items.length).toBe(3);
+./e2e/node_modules/protractor/built/element.d.ts:48: *   expect(items[0].getText()).toBe('First');
+./e2e/node_modules/protractor/built/element.d.ts:54: *   expect(items.length).toBe(3);
+./e2e/node_modules/protractor/built/element.d.ts:55: *   expect(items[0].getText()).toBe('First');
+./e2e/node_modules/protractor/built/element.d.ts:104:     * expect(foo.getText()).toEqual(['1a', '2a']);
+./e2e/node_modules/protractor/built/element.d.ts:106:     * expect(baz.getText()).toEqual(['1b']);
+./e2e/node_modules/protractor/built/element.d.ts:109:     * expect(nonexistent.getText()).toEqual(['']);
+./e2e/node_modules/protractor/built/element.d.ts:114:     * expect(foo.getText()).toEqual(['1a', '2a']);
+./e2e/node_modules/protractor/built/element.d.ts:116:     * expect(baz.getText()).toEqual(['1b']);
+./e2e/node_modules/protractor/built/element.d.ts:118:     * expect(nonexistent.getText()).toEqual(['']);
+./e2e/node_modules/protractor/built/element.d.ts:179:     * expect(list.get(0).getText()).toBe('First');
+./e2e/node_modules/protractor/built/element.d.ts:180:     * expect(list.get(1).getText()).toBe('Second');
+./e2e/node_modules/protractor/built/element.d.ts:185:     * expect(list.get(0).getText()).toBe('First');
+./e2e/node_modules/protractor/built/element.d.ts:186:     * expect(list.get(1).getText()).toBe('Second');
+./e2e/node_modules/protractor/built/element.d.ts:206:     * expect(first.getText()).toBe('First');
+./e2e/node_modules/protractor/built/element.d.ts:211:     * expect(first.getText()).toBe('First');
+./e2e/node_modules/protractor/built/element.d.ts:230:     * expect(last.getText()).toBe('Third');
+./e2e/node_modules/protractor/built/element.d.ts:235:     * expect(last.getText()).toBe('Third');
+./e2e/node_modules/protractor/built/element.d.ts:254:     * expect(list.count()).toBe(2);
+./e2e/node_modules/protractor/built/element.d.ts:255:     * expect(list.get(0).getText()).toBe('First');
+./e2e/node_modules/protractor/built/element.d.ts:256:     * expect(list.get(1).getText()).toBe('Second');
+./e2e/node_modules/protractor/built/element.d.ts:261:     * expect(list.count()).toBe(2);
+./e2e/node_modules/protractor/built/element.d.ts:262:     * expect(list.get(0).getText()).toBe('First');
+./e2e/node_modules/protractor/built/element.d.ts:263:     * expect(list.get(1).getText()).toBe('Second');
+./e2e/node_modules/protractor/built/element.d.ts:292:     * expect(list.count()).toBe(3);
+./e2e/node_modules/protractor/built/element.d.ts:297:     * expect(list.count()).toBe(3);
+./e2e/node_modules/protractor/built/element.d.ts:309:     * expect($('.item').isPresent()).toBeTruthy();
+./e2e/node_modules/protractor/built/element.d.ts:363:     *   expect(arr.length).toEqual(3);
+./e2e/node_modules/protractor/built/element.d.ts:369:     *   expect(arr.length).toEqual(3);
+./e2e/node_modules/protractor/built/element.d.ts:436:     * expect(items).toEqual([
+./e2e/node_modules/protractor/built/element.d.ts:451:     * expect(items).toEqual([
+./e2e/node_modules/protractor/built/element.d.ts:486:     * expect(value).toEqual('First Second Third ');
+./e2e/node_modules/protractor/built/element.d.ts:496:     * expect(value).toEqual('First Second Third ');
+./e2e/node_modules/protractor/built/element.d.ts:574: *   expect(name).toBe('Foo');
+./e2e/node_modules/protractor/built/element.d.ts:578: * expect(element(by.binding('person.email')).getText()).toBe('foo@bar.com');
+./e2e/node_modules/protractor/built/element.d.ts:583: * expect(input.getAttribute('value')).toBe('Foo123');
+./e2e/node_modules/protractor/built/element.d.ts:672:     * expect(child.getText()).toBe('Child text\n555-123-4567');
+./e2e/node_modules/protractor/built/element.d.ts:678:     * expect(triple.getText()).toBe('555-123-4567');
+./e2e/node_modules/protractor/built/element.d.ts:684:     * expect(child.getText()).toBe('Child text\n555-123-4567');
+./e2e/node_modules/protractor/built/element.d.ts:689:     * expect(triple.getText()).toBe('555-123-4567');
+./e2e/node_modules/protractor/built/element.d.ts:736:     * expect(child.getText()).toBe('Child text\n555-123-4567');
+./e2e/node_modules/protractor/built/element.d.ts:742:     * expect(triple.getText()).toBe('555-123-4567');
+./e2e/node_modules/protractor/built/element.d.ts:748:     * expect(child.getText()).toBe('Child text\n555-123-4567');
+./e2e/node_modules/protractor/built/element.d.ts:753:     * expect(triple.getText()).toBe('555-123-4567');
+./e2e/node_modules/protractor/built/element.d.ts:767:     * expect(element(by.binding('person.name')).isPresent()).toBe(true);
+./e2e/node_modules/protractor/built/element.d.ts:770:     * expect(element(by.binding('notPresent')).isPresent()).toBe(false);
+./e2e/node_modules/protractor/built/element.d.ts:839: * expect(item.getText()).toBe('Second');
+./e2e/node_modules/protractor/built/element.d.ts:860: * expect(list.count()).toBe(2);
+./e2e/node_modules/protractor/built/element.d.ts:863: * expect(list.count()).toBe(2);
+./e2e/node_modules/protractor/built/element.d.ts:864: * expect(list.get(0).getText()).toBe('First');
+./e2e/node_modules/protractor/built/element.d.ts:865: * expect(list.get(1).getText()).toBe('Second');
+./e2e/node_modules/protractor/built/locators.d.ts:81:     * expect(span1.getText()).toBe('Foo');
+./e2e/node_modules/protractor/built/locators.d.ts:84:     * expect(span2.getText()).toBe('foo@bar.com');
+./e2e/node_modules/protractor/built/locators.d.ts:88:     * expect(span1alt.getText()).toBe('Foo');
+./e2e/node_modules/protractor/built/locators.d.ts:106:     * expect(element(by.exactBinding('person.name')).isPresent()).toBe(true);
+./e2e/node_modules/protractor/built/locators.d.ts:107:     * expect(element(by.exactBinding('person-email')).isPresent()).toBe(true);
+./e2e/node_modules/protractor/built/locators.d.ts:108:     * expect(element(by.exactBinding('person')).isPresent()).toBe(false);
+./e2e/node_modules/protractor/built/locators.d.ts:109:     * expect(element(by.exactBinding('person_phone')).isPresent()).toBe(true);
+./e2e/node_modules/protractor/built/locators.d.ts:110:     * expect(element(by.exactBinding('person_phone|uppercase')).isPresent()).toBe(true);
+./e2e/node_modules/protractor/built/locators.d.ts:111:     * expect(element(by.exactBinding('phone')).isPresent()).toBe(false);
+./e2e/node_modules/protractor/built/locators.d.ts:127:     * expect(input.getAttribute('value')).toBe('Foo123');
+./e2e/node_modules/protractor/built/locators.d.ts:223:     * expect(element(by.exactRepeater('person in
+./e2e/node_modules/protractor/built/locators.d.ts:226:     * expect(element(by.exactRepeater('person in
+./e2e/node_modules/protractor/built/locators.d.ts:228:     * expect(element(by.exactRepeater('car in cars')).isPresent()).toBe(true);
+./e2e/node_modules/protractor/built/locators.d.ts:264:     * expect(allOptions.count()).toEqual(2);
+./e2e/node_modules/protractor/built/locators.d.ts:266:     * expect(firstOption.getText()).toEqual('red');
+./e2e/node_modules/protractor/built/locators.d.ts:288:     * expect(spans.count()).toEqual(3);
+./e2e/node_modules/protractor/built/browser.d.ts:420:     * expect(browser.getCurrentUrl()).toBe('https://angularjs.org/');
+./e2e/node_modules/protractor/built/browser.d.ts:449:     * expect(browser.getCurrentUrl())
+./e2e/node_modules/protractor/built/browser.d.ts:467:     * expect(browser.getLocationAbsUrl())
+./e2e/node_modules/protractor/exampleTypescript/asyncAwait/spec.ts:10:      expect((await todoList.get(1).getText())).toEqual('build an AngularJS app');
+./e2e/node_modules/protractor/exampleTypescript/spec.ts:18:    expect(greeting.getText()).toEqual('Hello Julie!');
+./e2e/node_modules/protractor/exampleTypescript/spec.ts:23:    expect(todoList.count()).toEqual(2);
+./e2e/node_modules/protractor/exampleTypescript/spec.ts:24:    expect(todoList.get(1).getText()).toEqual('build an angular app');
+./e2e/node_modules/protractor/exampleTypescript/specPageObjects.ts:10:    expect(angularHomepage.getGreeting()).toEqual('Hello Julie!');

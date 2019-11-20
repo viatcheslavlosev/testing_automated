@@ -1,0 +1,8 @@
+{
+  "name": "vylo",
+  "version": "1",
+  "description": "vylo_descr",
+  "main": "index.js",
+  "author": "vylo",
+  "license": "MIT"
+}

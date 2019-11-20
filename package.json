@@ -1,0 +1,12 @@
+0000000000000000000000000000000
+0000000000000000000000000000000
+
+
+{
+  "name": "vylo",
+  "version": "1",
+  "description": "vylo_descr",
+  "main": "index.js",
+  "author": "vylo",
+  "license": "MIT"
+}
